@@ -18,7 +18,7 @@ export default function Home() {
       
       setImage(response.data);
     } catch (error) {
-      console.error("error invoking lambda function", error.message);
+      console.error("error invoking lambda function");
       throw error;
     }
   };
